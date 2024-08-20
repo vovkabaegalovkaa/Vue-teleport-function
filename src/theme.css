@@ -1,0 +1,42 @@
+.container{
+    background-color: aliceblue;
+    width: 80%;
+    border-radius: 5px;
+    margin: auto;
+    padding: 1%;
+}
+body{
+    background-color: rgb(67, 41, 153);
+}
+.btn{
+    border-radius: 5px;
+    padding: 5px;
+    height: 2em;
+    width: fit-content;
+}
+.modal{
+    width: 50%;
+    height: fit-content;
+    border-radius: 5px;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 1%;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    /* коррекция положения элемента */
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.modal-back{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3633333a;
+    z-index: 999;
+}
+h2{
+    margin-top: 0;
+}
